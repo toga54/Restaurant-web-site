@@ -1,0 +1,140 @@
+body{
+    background-color: #1a1a1a;
+    margin: 0;
+    color: antiquewhite;
+}
+header{
+    background-color: rgb(10, 4, 4);
+    margin-bottom:0 ;
+}
+
+nav{
+    background-color: rgb(10, 4, 4);
+    padding: 10px;
+    margin-bottom:0 ;
+}
+.container-fluid{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.hawiya1{
+    padding: 10px;
+}
+.shif{
+    color: rgb(255, 215, 0);
+    font-size: 26px;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    margin-top: 15px;
+}
+nav a:hover{
+    background-color: rgb(255, 215, 0);
+    font-weight: 690;
+
+}
+
+hr{
+    height: 3px;
+    border: none;
+    background-image:linear-gradient(to right ,transparent ,rgb(255, 217, 0)10% 90%,transparent) ;
+    margin-bottom: 0;
+}
+.hero{
+    background-color: #000000;
+    padding-top: 20px;
+    text-align: center;
+}
+.hero div{
+    margin-top: 100px;
+}
+h1{
+    font-size:32px;
+    font-weight: 100;
+}
+.hero div p{
+    font-size:16px;
+    font-weight:800;
+    color: rgba(169, 169, 169, 0.87);
+    padding-bottom: 10px;
+}
+.hero div button{
+    background-color:rgb(255, 215, 0);
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.list{
+    text-align: center;
+    background-color: #050505;
+    padding-bottom: 30px;
+}
+.taam{
+    color: rgb(255, 215, 0);
+    font-size: 26px;
+    font-weight: 900;
+    padding: 20px;
+}
+.card{
+    box-shadow:0 4px 15px  #0c0b0bbe ;
+    background-color: #2725253d;
+    color: rgba(240, 255, 255, 0.582);
+    align-items: center;
+    padding: 20px;
+
+    
+}
+.card img:hover{
+         transform:scale(1.1) ;
+}
+.card img{
+    border-radius: 4px;    
+    transition: transform 0.3s ease;
+}
+.parent{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.parent2{
+    text-align: center;
+    background-color: #070707f6;
+    padding-bottom: 30px;
+}
+
+
+.ro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr) );
+    gap:10px ;
+    justify-items: center;
+    justify-content: center;
+}
+.parent2 .card{
+    padding: 20px;
+    max-width: 18rem;
+    margin:15px ;
+}
+.parent2 img{
+    border-radius: 4px;    
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+.foot .taam{
+    color: antiquewhite;
+    padding-bottom: 30px;
+}
